@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(30, 30, 30, 0.812);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.baground-img  {
+    position: relative;
+    top: -90px;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 77%), url(/image/RO-ro-20230703-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+    background-attachment: fixed;
+    height: 702px;
+    transform: scale(1.25);
+    background-position: center;
+    width: auto;
+    filter: brightness(0.7);
+
+    
+}
+
+
+.logo-netflix img {
+    position: relative;
+    z-index: 1;
+    top: -680px;
+    width: 160px;
+    left: 170px;
+}
+
+
+.text h1 {
+    position: relative;
+    top: -475px;
+    left: 220px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.text p {
+    position: relative;
+    top: -455px;
+    left: 552px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.descrpit-read p {
+    position: relative;
+    top: -425px;
+    left: 394px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+form input {
+    position: relative;
+    top: -395px;
+    left: 423px;
+    width: 455px;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    padding-top: 20px;
+    outline: none;
+    background-color: rgba(19, 17, 17, 0.46);
+    border: 1px solid rgb(120, 119, 119);
+
+}
+
+
+
+form  button {
+    position: relative;
+    top: -390px;
+    left: 428px;
+    padding:10px ;
+    width: 230px;
+    height: 60px;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    
+    
+}
+::placeholder {
+ 
+    color: rgba(255, 255, 255, 0.832);
+    font-size: 16px;
+}
+
+.selector select {
+    position: absolute;
+    padding: 10px 36px;
+    left: 1050px;
+    padding-left: 46px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.68);
+    top: 25px;
+
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+
+.selector img {
+    position: absolute;
+    top: 38px;
+    z-index: 1;
+    left: 1065px;
+    width: 20px;
+    color: red;
+    filter: invert(1);
+}
+
+.singIn a {
+    position: absolute;
+    left: 1270px;
+    top: 28px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.sect-two {
+    position: relative;
+    top: -225px;
+    z-index: -1;
+    background-color: black;
+}
+
+
+.img img {
+    position: relative;
+    top: -64px;
+    left: 789px;
+    width: 596px;
+}
+
+.title {
+    position: relative;
+    top: 175px;
+    left: 170px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.descript {
+    position: relative;
+    z-index: 1;
+    left: 170px;
+    top: 200px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 28px;
+    font-size: 25px;
+    
+}
+
+.videoTv video {
+    position: absolute;
+    top: 150px;
+    
+    left: 857px;
+    z-index:-1;
+    width: 450px;
+
+}
+
+
+.sect-tree {
+    position: relative;
+    top: -216px;
+    height: 565px;
+    z-index: -1;
+    background-color: black;
+}
+
+
+.phone img {
+    position: relative;
+    top: 40px;
+    width: 580px;
+    left: 100px;
+    
+}
+
+
+.title-new {
+    position: relative;
+    top: -300px;
+    left: 800px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size:50px ; 
+}
+
+.another-text {
+    position: relative;
+    left: 805px;
+    top: -270px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.sect-four {
+    position: relative;
+    top: -207px;
+    height: 565px;
+    z-index: -1;
+    background-color: black;
+}
+
+
+.sect-title {
+    position: relative;
+    left: 170px;
+    top: 200px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 49px;
+}
+
+.sect-descript {
+    position: relative;
+    left: 170px;
+    top: 215px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.ComboImg img {
+    position: relative;
+    left: 750px;
+    top: -47px;
+}
+
+.video video {
+    position: absolute;
+    left: 59%;
+    z-index: -1;
+    top: 22%;
+    width: 28%;
+    
+}
+
+
+
+.sect-five { 
+    position: relative;
+    top: -197px;
+    height: 565px;
+    z-index: -1;
+    background-color: black;
+}
+
+
+
+.title-kid {
+    position: relative;
+    left: 810px;
+    top: -310px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.descript-kids {
+    position: relative;
+    left: 810px;
+    top: -305px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.img-kid img {
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+
+.sect-six {
+    position: relative;
+    top: -186px;
+    height: 1005px;
+    z-index: -1;
+    background-color: black;
+}
+
+.qa-title {
+    position: relative;
+    left: 335px;
+    top: 65px;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+
+button {
+    position: relative;
+    top: 70px;
+    left: 170px;
+    width: 1080px;
+    padding: 24px;
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color:rgba(60, 60, 60, 0.896);
+    color: white;
+    border: none;
+    z-index: 1;
+    outline: none;
+    margin: 6px;
+   
+}
+
+
+.text-all {
+    position: relative;
+    left: -400px;
+}
+
+.text-two {
+    position: relative;
+    left: -325px;
+}
+
+.text-tree {
+    position: relative;
+    left: -374px;
+}
+
+.text-four {
+    position: relative;
+    left: -387px;
+}
+
+
+.text-five {
+    position: relative;
+    left: -327px;
+}
+
+.text-six {
+    position: relative;
+    left: -351px;
+}
+
+.plusqaqOpen-ones i{
+    position: relative;
+    left: 390px;
+    font-size: 30px;
+    
+}
+
+
+.plusqaqOpen-two i{
+    position: relative;
+    left: 320px;
+    font-size: 30px;
+    
+}
+
+
+.plusqaqOpen-tree i{
+    position: relative;
+    left: 369px;
+    font-size: 30px;
+    
+}
+.plusqaqOpen-four i{
+    position: relative;
+    left: 386px;
+    font-size: 30px;
+    
+}
+
+
+.plusqaqOpen-five i{
+    position: relative;
+    left: 325px;
+    font-size: 30px;
+    
+}
+
+
+.plusqaqOpen-six i{
+    position: relative;
+    left: 355px;
+    font-size: 30px;
+    
+}
+
+
+.plusqaqOpen-one i{
+    position: relative;
+    left: 400px;
+
+    font-size: 30px;
+    
+}
+
+
+
+.email input {
+    position: relative;
+    top: -300px;
+}
+
+
+.creator  {
+    position: relative;
+    top: -186px;
+    height: 14px;
+    z-index: -1;
+    background-color: black;
+
+}
+
+
